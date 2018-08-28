@@ -1,0 +1,12 @@
+
+  ---
+- name: Create a new EC2 instance
+  hosts: localhost
+  gather_facts: False
+
+
+  #---hosts: localhost
+ # connection: local
+  #roles:
+   #- ec2:
+  #tags: ec2_create
